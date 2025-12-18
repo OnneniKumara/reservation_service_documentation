@@ -1,0 +1,709 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class UserRepository | Reservation Service - documentation </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class UserRepository | Reservation Service - documentation ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/OnneniKumara/CICD_Pipeline_For_Reservation_Service/new/83/merge/apiSpec/new?filename=Backend_Reservation_Service_Data_Repositories_UserRepository.md&amp;value=---%0Auid%3A%20Backend_Reservation_Service.Data.Repositories.UserRepository%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="Reservation Service - documentation">
+            Reservation Service - documentation
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="Backend_Reservation_Service.Data.Repositories.UserRepository">
+
+
+
+  <h1 id="Backend_Reservation_Service_Data_Repositories_UserRepository" data-uid="Backend_Reservation_Service.Data.Repositories.UserRepository" class="text-break">
+Class UserRepository  <a class="header-action link-secondary" title="View source" href="https://github.com/OnneniKumara/CICD_Pipeline_For_Reservation_Service/blob/83/merge/Backend/Data/Repositories/UserRepository.cs/#L8"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="Backend_Reservation_Service.html">Backend_Reservation_Service</a>.<a class="xref" href="Backend_Reservation_Service.Data.html">Data</a>.<a class="xref" href="Backend_Reservation_Service.Data.Repositories.html">Repositories</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>Backend_Reservation_Service.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class UserRepository : IUserRepository</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">UserRepository</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="Backend_Reservation_Service.Data.Repositories.IUserRepository.html">IUserRepository</a></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="Backend_Reservation_Service_Data_Repositories_UserRepository__ctor_" data-uid="Backend_Reservation_Service.Data.Repositories.UserRepository.#ctor*"></a>
+
+  <h3 id="Backend_Reservation_Service_Data_Repositories_UserRepository__ctor_Microsoft_AspNetCore_Identity_UserManager_Backend_Reservation_Service_Data_Models_User__Microsoft_AspNetCore_Identity_RoleManager_Microsoft_AspNetCore_Identity_IdentityRole__Backend_Reservation_Service_Data_ReservationServiceDbContext_" data-uid="Backend_Reservation_Service.Data.Repositories.UserRepository.#ctor(Microsoft.AspNetCore.Identity.UserManager{Backend_Reservation_Service.Data.Models.User},Microsoft.AspNetCore.Identity.RoleManager{Microsoft.AspNetCore.Identity.IdentityRole},Backend_Reservation_Service.Data.ReservationServiceDbContext)">
+  UserRepository(UserManager&lt;User&gt;, RoleManager&lt;IdentityRole&gt;, ReservationServiceDbContext)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OnneniKumara/CICD_Pipeline_For_Reservation_Service/blob/83/merge/Backend/Data/Repositories/UserRepository.cs/#L14"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public UserRepository(UserManager&lt;User&gt; userManager, RoleManager&lt;IdentityRole&gt; roleManager, ReservationServiceDbContext context)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>userManager</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore.identity.usermanager-1">UserManager</a>&lt;<a class="xref" href="Backend_Reservation_Service.Data.Models.User.html">User</a>&gt;</dt>
+    <dd></dd>
+    <dt><code>roleManager</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore.identity.rolemanager-1">RoleManager</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore.identity.identityrole">IdentityRole</a>&gt;</dt>
+    <dd></dd>
+    <dt><code>context</code> <a class="xref" href="Backend_Reservation_Service.Data.ReservationServiceDbContext.html">ReservationServiceDbContext</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="Backend_Reservation_Service_Data_Repositories_UserRepository_AssignRoleAsync_" data-uid="Backend_Reservation_Service.Data.Repositories.UserRepository.AssignRoleAsync*"></a>
+
+  <h3 id="Backend_Reservation_Service_Data_Repositories_UserRepository_AssignRoleAsync_Backend_Reservation_Service_Data_Models_User_System_String_" data-uid="Backend_Reservation_Service.Data.Repositories.UserRepository.AssignRoleAsync(Backend_Reservation_Service.Data.Models.User,System.String)">
+  AssignRoleAsync(User, string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OnneniKumara/CICD_Pipeline_For_Reservation_Service/blob/83/merge/Backend/Data/Repositories/UserRepository.cs/#L21"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;IdentityResult&gt; AssignRoleAsync(User user, string role)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>user</code> <a class="xref" href="Backend_Reservation_Service.Data.Models.User.html">User</a></dt>
+    <dd></dd>
+    <dt><code>role</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore.identity.identityresult">IdentityResult</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Backend_Reservation_Service_Data_Repositories_UserRepository_ChangePwdAsync_" data-uid="Backend_Reservation_Service.Data.Repositories.UserRepository.ChangePwdAsync*"></a>
+
+  <h3 id="Backend_Reservation_Service_Data_Repositories_UserRepository_ChangePwdAsync_Backend_Reservation_Service_Data_Models_User_System_String_System_String_" data-uid="Backend_Reservation_Service.Data.Repositories.UserRepository.ChangePwdAsync(Backend_Reservation_Service.Data.Models.User,System.String,System.String)">
+  ChangePwdAsync(User, string, string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OnneniKumara/CICD_Pipeline_For_Reservation_Service/blob/83/merge/Backend/Data/Repositories/UserRepository.cs/#L178"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;IdentityResult&gt; ChangePwdAsync(User user, string oldPwd, string newPwd)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>user</code> <a class="xref" href="Backend_Reservation_Service.Data.Models.User.html">User</a></dt>
+    <dd></dd>
+    <dt><code>oldPwd</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>newPwd</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore.identity.identityresult">IdentityResult</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Backend_Reservation_Service_Data_Repositories_UserRepository_CheckPasswordAsync_" data-uid="Backend_Reservation_Service.Data.Repositories.UserRepository.CheckPasswordAsync*"></a>
+
+  <h3 id="Backend_Reservation_Service_Data_Repositories_UserRepository_CheckPasswordAsync_Backend_Reservation_Service_Data_Models_User_System_String_" data-uid="Backend_Reservation_Service.Data.Repositories.UserRepository.CheckPasswordAsync(Backend_Reservation_Service.Data.Models.User,System.String)">
+  CheckPasswordAsync(User, string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OnneniKumara/CICD_Pipeline_For_Reservation_Service/blob/83/merge/Backend/Data/Repositories/UserRepository.cs/#L26"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;bool&gt; CheckPasswordAsync(User user, string password)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>user</code> <a class="xref" href="Backend_Reservation_Service.Data.Models.User.html">User</a></dt>
+    <dd></dd>
+    <dt><code>password</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Backend_Reservation_Service_Data_Repositories_UserRepository_CreateUserAsync_" data-uid="Backend_Reservation_Service.Data.Repositories.UserRepository.CreateUserAsync*"></a>
+
+  <h3 id="Backend_Reservation_Service_Data_Repositories_UserRepository_CreateUserAsync_Backend_Reservation_Service_Data_Models_User_System_String_" data-uid="Backend_Reservation_Service.Data.Repositories.UserRepository.CreateUserAsync(Backend_Reservation_Service.Data.Models.User,System.String)">
+  CreateUserAsync(User, string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OnneniKumara/CICD_Pipeline_For_Reservation_Service/blob/83/merge/Backend/Data/Repositories/UserRepository.cs/#L31"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;IdentityResult&gt; CreateUserAsync(User user, string password)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>user</code> <a class="xref" href="Backend_Reservation_Service.Data.Models.User.html">User</a></dt>
+    <dd></dd>
+    <dt><code>password</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore.identity.identityresult">IdentityResult</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Backend_Reservation_Service_Data_Repositories_UserRepository_DeleteUserAsync_" data-uid="Backend_Reservation_Service.Data.Repositories.UserRepository.DeleteUserAsync*"></a>
+
+  <h3 id="Backend_Reservation_Service_Data_Repositories_UserRepository_DeleteUserAsync_Backend_Reservation_Service_Data_Models_User_" data-uid="Backend_Reservation_Service.Data.Repositories.UserRepository.DeleteUserAsync(Backend_Reservation_Service.Data.Models.User)">
+  DeleteUserAsync(User)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OnneniKumara/CICD_Pipeline_For_Reservation_Service/blob/83/merge/Backend/Data/Repositories/UserRepository.cs/#L190"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;(bool Success, string Message)&gt; DeleteUserAsync(User user)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>user</code> <a class="xref" href="Backend_Reservation_Service.Data.Models.User.html">User</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;(<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.valuetuple-system.boolean,system.string-.success">success</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.valuetuple-system.boolean,system.string-.statusmessage">statusMessage</a>)&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Backend_Reservation_Service_Data_Repositories_UserRepository_FindByEmailAsyncWithDeleted_" data-uid="Backend_Reservation_Service.Data.Repositories.UserRepository.FindByEmailAsyncWithDeleted*"></a>
+
+  <h3 id="Backend_Reservation_Service_Data_Repositories_UserRepository_FindByEmailAsyncWithDeleted_System_String_" data-uid="Backend_Reservation_Service.Data.Repositories.UserRepository.FindByEmailAsyncWithDeleted(System.String)">
+  FindByEmailAsyncWithDeleted(string?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OnneniKumara/CICD_Pipeline_For_Reservation_Service/blob/83/merge/Backend/Data/Repositories/UserRepository.cs/#L262"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;User?&gt; FindByEmailAsyncWithDeleted(string? email)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>email</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="Backend_Reservation_Service.Data.Models.User.html">User</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Backend_Reservation_Service_Data_Repositories_UserRepository_FindByIdAsync_" data-uid="Backend_Reservation_Service.Data.Repositories.UserRepository.FindByIdAsync*"></a>
+
+  <h3 id="Backend_Reservation_Service_Data_Repositories_UserRepository_FindByIdAsync_System_String_" data-uid="Backend_Reservation_Service.Data.Repositories.UserRepository.FindByIdAsync(System.String)">
+  FindByIdAsync(string?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OnneniKumara/CICD_Pipeline_For_Reservation_Service/blob/83/merge/Backend/Data/Repositories/UserRepository.cs/#L241"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;User?&gt; FindByIdAsync(string? userId)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>userId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="Backend_Reservation_Service.Data.Models.User.html">User</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Backend_Reservation_Service_Data_Repositories_UserRepository_FindByUsernameAsync_" data-uid="Backend_Reservation_Service.Data.Repositories.UserRepository.FindByUsernameAsync*"></a>
+
+  <h3 id="Backend_Reservation_Service_Data_Repositories_UserRepository_FindByUsernameAsync_System_String_" data-uid="Backend_Reservation_Service.Data.Repositories.UserRepository.FindByUsernameAsync(System.String)">
+  FindByUsernameAsync(string?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OnneniKumara/CICD_Pipeline_For_Reservation_Service/blob/83/merge/Backend/Data/Repositories/UserRepository.cs/#L44"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;User?&gt; FindByUsernameAsync(string? username)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>username</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="Backend_Reservation_Service.Data.Models.User.html">User</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Backend_Reservation_Service_Data_Repositories_UserRepository_FindByUsernameWithDeletedAsync_" data-uid="Backend_Reservation_Service.Data.Repositories.UserRepository.FindByUsernameWithDeletedAsync*"></a>
+
+  <h3 id="Backend_Reservation_Service_Data_Repositories_UserRepository_FindByUsernameWithDeletedAsync_System_String_" data-uid="Backend_Reservation_Service.Data.Repositories.UserRepository.FindByUsernameWithDeletedAsync(System.String)">
+  FindByUsernameWithDeletedAsync(string?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OnneniKumara/CICD_Pipeline_For_Reservation_Service/blob/83/merge/Backend/Data/Repositories/UserRepository.cs/#L250"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;User?&gt; FindByUsernameWithDeletedAsync(string? username)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>username</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="Backend_Reservation_Service.Data.Models.User.html">User</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Backend_Reservation_Service_Data_Repositories_UserRepository_GetAllUsersAsync_" data-uid="Backend_Reservation_Service.Data.Repositories.UserRepository.GetAllUsersAsync*"></a>
+
+  <h3 id="Backend_Reservation_Service_Data_Repositories_UserRepository_GetAllUsersAsync_System_Int32_System_Int32_System_Boolean_System_Boolean_" data-uid="Backend_Reservation_Service.Data.Repositories.UserRepository.GetAllUsersAsync(System.Int32,System.Int32,System.Boolean,System.Boolean)">
+  GetAllUsersAsync(int, int, bool, bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OnneniKumara/CICD_Pipeline_For_Reservation_Service/blob/83/merge/Backend/Data/Repositories/UserRepository.cs/#L55"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;(IEnumerable&lt;User&gt;, PaginationDTO pagination)&gt; GetAllUsersAsync(int itemsPerPage, int pageNumber, bool orderDesc, bool onlyDeleted)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>itemsPerPage</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>pageNumber</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>orderDesc</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+    <dt><code>onlyDeleted</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;(<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="Backend_Reservation_Service.Data.Models.User.html">User</a>&gt;, <a class="xref" href="Backend_Reservation_Service.Data.Models.PaginationDTO.html">PaginationDTO</a> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.valuetuple-system.collections.generic.ienumerable-backend_reservation_service.data.models.user-,backend_reservation_service.data.models.paginationdto-.pagination">pagination</a>)&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Backend_Reservation_Service_Data_Repositories_UserRepository_GetRolesAsync_" data-uid="Backend_Reservation_Service.Data.Repositories.UserRepository.GetRolesAsync*"></a>
+
+  <h3 id="Backend_Reservation_Service_Data_Repositories_UserRepository_GetRolesAsync_Backend_Reservation_Service_Data_Models_User_" data-uid="Backend_Reservation_Service.Data.Repositories.UserRepository.GetRolesAsync(Backend_Reservation_Service.Data.Models.User)">
+  GetRolesAsync(User)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OnneniKumara/CICD_Pipeline_For_Reservation_Service/blob/83/merge/Backend/Data/Repositories/UserRepository.cs/#L158"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;IList&lt;string&gt;&gt; GetRolesAsync(User user)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>user</code> <a class="xref" href="Backend_Reservation_Service.Data.Models.User.html">User</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1">IList</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Backend_Reservation_Service_Data_Repositories_UserRepository_RestoreSoftDeletedUserAsync_" data-uid="Backend_Reservation_Service.Data.Repositories.UserRepository.RestoreSoftDeletedUserAsync*"></a>
+
+  <h3 id="Backend_Reservation_Service_Data_Repositories_UserRepository_RestoreSoftDeletedUserAsync_Backend_Reservation_Service_Data_Models_User_" data-uid="Backend_Reservation_Service.Data.Repositories.UserRepository.RestoreSoftDeletedUserAsync(Backend_Reservation_Service.Data.Models.User)">
+  RestoreSoftDeletedUserAsync(User)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OnneniKumara/CICD_Pipeline_For_Reservation_Service/blob/83/merge/Backend/Data/Repositories/UserRepository.cs/#L274"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;(bool succeeded, string message)&gt; RestoreSoftDeletedUserAsync(User user)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>user</code> <a class="xref" href="Backend_Reservation_Service.Data.Models.User.html">User</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;(<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.valuetuple-system.boolean,system.string-.success">success</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.valuetuple-system.boolean,system.string-.statusmessage">statusMessage</a>)&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Backend_Reservation_Service_Data_Repositories_UserRepository_UpdateUserAsync_" data-uid="Backend_Reservation_Service.Data.Repositories.UserRepository.UpdateUserAsync*"></a>
+
+  <h3 id="Backend_Reservation_Service_Data_Repositories_UserRepository_UpdateUserAsync_Backend_Reservation_Service_Data_Models_User_" data-uid="Backend_Reservation_Service.Data.Repositories.UserRepository.UpdateUserAsync(Backend_Reservation_Service.Data.Models.User)">
+  UpdateUserAsync(User)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/OnneniKumara/CICD_Pipeline_For_Reservation_Service/blob/83/merge/Backend/Data/Repositories/UserRepository.cs/#L163"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;bool&gt; UpdateUserAsync(User user)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>user</code> <a class="xref" href="Backend_Reservation_Service.Data.Models.User.html">User</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/OnneniKumara/CICD_Pipeline_For_Reservation_Service/blob/83/merge/Backend/Data/Repositories/UserRepository.cs/#L8" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

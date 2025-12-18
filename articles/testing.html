@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Test-Cases | Reservation Service - documentation </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Test-Cases | Reservation Service - documentation ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/OnneniKumara/CICD_Pipeline_For_Reservation_Service/blob/83/merge/Documentation/articles/testing.md/#L1">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="Reservation Service - documentation">
+            Reservation Service - documentation
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h1 id="test-cases">Test-Cases</h1>
+
+<h2 id="introduction">Introduction</h2>
+<p>This is the test-case documentation for the project.</p>
+<hr>
+<p>described by <a href="https://github.com/miikapihkola">@miikapihkola</a></p>
+<h3 id="user-acceptance-testit">User-acceptance Testit:</h3>
+<h4 id="testi-1--käyttäjän-hallinta-peruskäyttäjä">Testi #1 – Käyttäjän hallinta, peruskäyttäjä</h4>
+<p>Status: Ei testattu
+Vaatimus ID: TV5, TV5.1
+Pre Reqs: -</p>
+<ul>
+<li>Avaa uuden käyttäjän luonnin lomakkeen ja avaa ToS</li>
+<li>Luo uusi käyttäjätunnus</li>
+<li>Kirjaudu sisään käyttäjätunnuksella</li>
+<li>Mene käyttäjä tietoihin ja päivitä käyttäjä tietojasi</li>
+<li>Mene käyttäjä tietoihin ja vaihda salasana</li>
+<li>Kirjaudu sisään uusilla tunnuksilla</li>
+<li>Kirjaudu ulos</li>
+</ul>
+<h4 id="testi-2--käyttäjän-hallinta-admin-käyttäjä">Testi #2 – Käyttäjän hallinta, admin käyttäjä</h4>
+<p>Status: Ei testattu
+Vaatimus ID: TV5, TV5.1, TV5.2
+Pre Reqs: 1kpl peruskäyttäjä ja 1kpl admin käyttäjä</p>
+<ul>
+<li>Kirjaudu sisään admin tunnuksella</li>
+<li>Mene käyttäjä tietoihin ja päivitä käytäjä tietojasi</li>
+<li>Mene käyttäjä tietoihin ja vaihda salasana</li>
+<li>Kirjaudu sisään uusilla tunnuksilla</li>
+<li>Mene admin paneelin käyttäjät tabiin</li>
+<li>Poista jokin toinen käyttäjä</li>
+<li>Kirjaudu ulos ja koita kirjautua sisään juuri poistetulla tunnuksella</li>
+<li>Palaa takaisin admin käyttäjälle ja admin paneelin users tabiin</li>
+<li>Palauta juuri äsken poistettu käyttäjä</li>
+<li>Anna jollekin toiselle käyttäjälle admin rooli</li>
+<li>Kirjaudu ulos</li>
+<li>Kirjaudu sisään palautetulla käyttäjällä</li>
+</ul>
+<h4 id="testi-3--ajoneuvojen-hallinta-admin-käyttäjä">Testi #3 – Ajoneuvojen hallinta, admin käyttäjä</h4>
+<p>Status: Ei testattu
+Vaatimus ID: TV6, TV6.1, TV6.2, TV6.3, TV1, TV1.2, TV1.3
+Pre Reqs: 1kpl admin käyttäjä, 2kpl erilaisia ajoneuvoja jokaseen tyyliin (type, make ja model)</p>
+<ul>
+<li>Kirjaudu admin käyttäjälle ja mene admin paneelin ajoneuvo tabiin</li>
+<li>Luo uusi ajoneuvo, varmista että ajoneuvo näkyy varaa ajoneuvo kohdassa</li>
+<li>Päivitä juuri luotua ajoneuvoa</li>
+<li>Poista ajoneuvo käytöstä, varmista ettei ajoneuvo enään näy varaa ajoneuvo kohdassa</li>
+<li>Palauta ajoneuvo käyttöön, varmista että ajoneuvo näkyy varaa ajoneuvo kohdassa</li>
+<li>Poista ajoneuvo, varmista ettei ajoneuvo enään näy varaa ajoneuvo kohdassa</li>
+<li>Mene ajoneuvojen varaus sivulle</li>
+<li>Varmista että kaikki ajoneuvot (joiden pitäisi näkyä) näkyvät sivulla</li>
+<li>Kokeile type filteriä, Varmista että oikeat ajoneuvot näkyvät</li>
+<li>Kokeile make filteriä, Varmista että oikeat ajoneuvot näkyvät</li>
+<li>Kokeile model filteriä, Varmista että oikeat ajoneuvot näkyvät</li>
+</ul>
+<h4 id="testi-4--ajoneuvojen-hallinta-peruskäyttäjä">Testi #4 – Ajoneuvojen hallinta, peruskäyttäjä</h4>
+<p>Status: Ei testattu
+Vaatimus ID: TV1, TV1.2, TV1.3
+Pre Reqs: 1kpl peruskäyttäjä, 2kpl erilaisia ajoneuvoja jokaiseen tyyliin (type, make ja model)</p>
+<ul>
+<li>Kirjaudu peruskäyttäjälle ja mene ajoneuvojen varaus sivulle</li>
+<li>Varmista että kaikki ajoneuvot (joiden pitäisi näkyä) näkyvät sivulla</li>
+<li>Kokeile type filtteriä, varmista että oikeat ajoneuvot näkyvät</li>
+<li>Kokeile make filtteriä, varmista että oikeat ajoneuvot näkyvät</li>
+<li>Kokeile model filtteriä, varmista että oikeat ajoneuvot näkyvät</li>
+</ul>
+<p></p>
+<h4 id="testi-5--varausten-hallinta-peruskäyttäjä">Testi #5 – Varausten hallinta, peruskäyttäjä</h4>
+<p>Status: Ei testattu
+Vaatimus ID: TV2, TV2.1, TV2.2, TV2.3
+Pre Reqs: 1kpl peruskäyttäjä, 1kpl ajoneuvo</p>
+<ul>
+<li>Kirjaudu peruskäyttäjälle ja mene kohtaan ajoneuvojen varaaminen</li>
+<li>Avaa jonkin ajoneuvon lisätiedot nappula</li>
+<li>Luo uusi varaus.</li>
+<li>Mene varaukset sivulle, varmista että varaus näkyy sivulla</li>
+<li>Varmista että ajoneuvon tiedot saa näkyviin varauksesta</li>
+<li>Poista varaus, varmista että varausta ei enään näy sivulla</li>
+</ul>
+<h4 id="testi-6--varausten-hallinta-admin-käyttäjä">Testi #6 – Varausten hallinta, admin käyttäjä</h4>
+<p>Status: Ei testattu
+Vaatimus ID: TV2, TV2.1, TV2.2, TV2.3
+Pre Reqs: 1kpl admin käyttäjä, 1kpl ajoneuvo, 1kpl jonkin toisen accountin tekemä varaus</p>
+<ul>
+<li>Kirjaudu admin käyttäjälle ja mene kohtaan ajoneuvojen varaaminen</li>
+<li>Avaa jonkin ajoneuvon lisätiedot nappula</li>
+<li>Luo uusi varaus.</li>
+<li>Mene varaukset sivulle, varmista että varaus näkyy sivulla</li>
+<li>Varmista että ajoneuvon tiedot saa näkyviin varauksesta</li>
+<li>Poista varaus, varmista että varausta ei enään näy sivulla</li>
+<li>Mene admin paneelin varaukset tabiin</li>
+<li>Poista jonkin toisen accountin tekemä varaus</li>
+</ul>
+<p></p>
+<h4 id="testi-7--uutisten-hallinta-admin-käyttäjä">Testi #7 – Uutisten hallinta, admin käyttäjä</h4>
+<p>Status: Ei testattu
+Vaatimus ID: TV7, TV7.1, TV7.2, TV7.3
+Pre Reqs: 1kpl admin käyttäjä väh. 4kpl uutisia, joista 3. uusimman joukossa on 1 päivitetty ja 1 päivittämätön uutinen.</p>
+<ul>
+<li>Kirjaudu admin käyttäjälle ja mene admin paneelin uutiset tabiin</li>
+<li>Luo uusi uutinen, varmista että uutinen tulee etusivulle näkyviin</li>
+<li>Päivitä uutinen, varmista että uutisen päivitykset näkyvät etusivulla</li>
+<li>Poista uutinen, varmista että uutista ei näy etusivulla</li>
+<li>Mene kohtaan etusivu</li>
+<li>Varmista että etusivulla näkyy 3 uutista</li>
+<li>Avaa jokainen uutinen ja varmista että kaikki uutisen infot näkyvät, myös edit timestamp niissä, jotka on päivitetty</li>
+</ul>
+<h4 id="testi-8--uutisten-hallinta-peruskäyttäjä">Testi #8 – Uutisten hallinta, peruskäyttäjä</h4>
+<p>Status: Ei testattu
+Vaatimus ID: TV7, TV7.1, TV7.2, TV7.3
+Pre Reqs: 1kpl peruskäyttäjä, väh. 4kpl uutisia, joista 3. uusimman joukossa on 1 päivitetty ja 1 päivittämätön uutinen.</p>
+<ul>
+<li>Kirjaudu peruskäyttäjälle ja mene kohtaan etusivu</li>
+<li>Varmista että etusivulla näkyy 3 uutista</li>
+<li>Avaa jokainen uutinen ja varmista että kaikki uutisen infot näkyvät, myös edit timestamp niissä, jotka on päivitetty</li>
+</ul>
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/OnneniKumara/CICD_Pipeline_For_Reservation_Service/blob/83/merge/Documentation/articles/testing.md/#L1" class="edit-link">Edit this page</a>
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

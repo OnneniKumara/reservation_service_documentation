@@ -1,0 +1,1033 @@
+{
+  "source_base_path": "/home/runner/work/CICD_Pipeline_For_Reservation_Service/CICD_Pipeline_For_Reservation_Service/Documentation",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      }
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/enduser.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/enduser.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/frontend.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/frontend.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/general.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/general.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/installation.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/installation.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/testing.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/testing.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "articles/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "articles/toc.html"
+        },
+        ".json": {
+          "relative_path": "articles/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "restapi/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "restapi/index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "restapi/toc.md",
+      "output": {
+        ".html": {
+          "relative_path": "restapi/toc.html"
+        },
+        ".json": {
+          "relative_path": "restapi/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "sourcedocs/Backend_Reservation_Service.Controllers.AccountController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "sourcedocs/Backend_Reservation_Service.Controllers.AccountController.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Backend_Reservation_Service.Controllers.AccountController",
+      "Summary": "<p sourcefile=\"sourcedocs/Backend_Reservation_Service.Controllers.AccountController.yml\" sourcestartlinenumber=\"1\">Controller for managing user accounts.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "sourcedocs/Backend_Reservation_Service.Controllers.NewsController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "sourcedocs/Backend_Reservation_Service.Controllers.NewsController.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Backend_Reservation_Service.Controllers.NewsController",
+      "Summary": "<p sourcefile=\"sourcedocs/Backend_Reservation_Service.Controllers.NewsController.yml\" sourcestartlinenumber=\"1\">a Controller for managing news</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "sourcedocs/Backend_Reservation_Service.Controllers.ReservationsController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "sourcedocs/Backend_Reservation_Service.Controllers.ReservationsController.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Backend_Reservation_Service.Controllers.ReservationsController",
+      "Summary": "<p sourcefile=\"sourcedocs/Backend_Reservation_Service.Controllers.ReservationsController.yml\" sourcestartlinenumber=\"1\">Controller for handling reservation-related actions.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "sourcedocs/Backend_Reservation_Service.Controllers.UploadFilesController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "sourcedocs/Backend_Reservation_Service.Controllers.UploadFilesController.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Backend_Reservation_Service.Controllers.UploadFilesController",
+      "Summary": "<p sourcefile=\"sourcedocs/Backend_Reservation_Service.Controllers.UploadFilesController.yml\" sourcestartlinenumber=\"1\">Controller for uploading files</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "sourcedocs/Backend_Reservation_Service.Controllers.VehiclesController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "sourcedocs/Backend_Reservation_Service.Controllers.VehiclesController.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Backend_Reservation_Service.Controllers.VehiclesController",
+      "Summary": "<p sourcefile=\"sourcedocs/Backend_Reservation_Service.Controllers.VehiclesController.yml\" sourcestartlinenumber=\"1\">Controller for managing vehicles</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "sourcedocs/Backend_Reservation_Service.Controllers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "sourcedocs/Backend_Reservation_Service.Controllers.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Backend_Reservation_Service.Controllers",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "sourcedocs/Backend_Reservation_Service.Data.Models.CreateReservationDTO.yml",
+      "output": {
+        ".html": {
+          "relative_path": "sourcedocs/Backend_Reservation_Service.Data.Models.CreateReservationDTO.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Backend_Reservation_Service.Data.Models.CreateReservationDTO",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "sourcedocs/Backend_Reservation_Service.Data.Models.FullReservationDTO.yml",
+      "output": {
+        ".html": {
+          "relative_path": "sourcedocs/Backend_Reservation_Service.Data.Models.FullReservationDTO.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Backend_Reservation_Service.Data.Models.FullReservationDTO",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "sourcedocs/Backend_Reservation_Service.Data.Models.FullUserDTO.yml",
+      "output": {
+        ".html": {
+          "relative_path": "sourcedocs/Backend_Reservation_Service.Data.Models.FullUserDTO.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Backend_Reservation_Service.Data.Models.FullUserDTO",
+      "Summary": "<p sourcefile=\"sourcedocs/Backend_Reservation_Service.Data.Models.FullUserDTO.yml\" sourcestartlinenumber=\"1\">Data Transfer Object for full user details.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "sourcedocs/Backend_Reservation_Service.Data.Models.LogOut.yml",
+      "output": {
+        ".html": {
+          "relative_path": "sourcedocs/Backend_Reservation_Service.Data.Models.LogOut.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Backend_Reservation_Service.Data.Models.LogOut",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "sourcedocs/Backend_Reservation_Service.Data.Models.Login.yml",
+      "output": {
+        ".html": {
+          "relative_path": "sourcedocs/Backend_Reservation_Service.Data.Models.Login.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Backend_Reservation_Service.Data.Models.Login",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "sourcedocs/Backend_Reservation_Service.Data.Models.News.yml",
+      "output": {
+        ".html": {
+          "relative_path": "sourcedocs/Backend_Reservation_Service.Data.Models.News.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Backend_Reservation_Service.Data.Models.News",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "sourcedocs/Backend_Reservation_Service.Data.Models.NewsDTO.yml",
+      "output": {
+        ".html": {
+          "relative_path": "sourcedocs/Backend_Reservation_Service.Data.Models.NewsDTO.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Backend_Reservation_Service.Data.Models.NewsDTO",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "sourcedocs/Backend_Reservation_Service.Data.Models.PaginationDTO.yml",
+      "output": {
+        ".html": {
+          "relative_path": "sourcedocs/Backend_Reservation_Service.Data.Models.PaginationDTO.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Backend_Reservation_Service.Data.Models.PaginationDTO",
+      "Summary": "<p sourcefile=\"sourcedocs/Backend_Reservation_Service.Data.Models.PaginationDTO.yml\" sourcestartlinenumber=\"1\">Represents pagination details for a collection of items.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "sourcedocs/Backend_Reservation_Service.Data.Models.Register.yml",
+      "output": {
+        ".html": {
+          "relative_path": "sourcedocs/Backend_Reservation_Service.Data.Models.Register.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Backend_Reservation_Service.Data.Models.Register",
+      "Summary": "<p sourcefile=\"sourcedocs/Backend_Reservation_Service.Data.Models.Register.yml\" sourcestartlinenumber=\"1\">Represents a registration model with user details.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "sourcedocs/Backend_Reservation_Service.Data.Models.Reservation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "sourcedocs/Backend_Reservation_Service.Data.Models.Reservation.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Backend_Reservation_Service.Data.Models.Reservation",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "sourcedocs/Backend_Reservation_Service.Data.Models.ReservationDTO.yml",
+      "output": {
+        ".html": {
+          "relative_path": "sourcedocs/Backend_Reservation_Service.Data.Models.ReservationDTO.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Backend_Reservation_Service.Data.Models.ReservationDTO",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "sourcedocs/Backend_Reservation_Service.Data.Models.Settings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "sourcedocs/Backend_Reservation_Service.Data.Models.Settings.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Backend_Reservation_Service.Data.Models.Settings",
+      "Summary": "<p sourcefile=\"sourcedocs/Backend_Reservation_Service.Data.Models.Settings.yml\" sourcestartlinenumber=\"1\">Represents the settings for various constraints in the application.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "sourcedocs/Backend_Reservation_Service.Data.Models.UpdateUserDTO.yml",
+      "output": {
+        ".html": {
+          "relative_path": "sourcedocs/Backend_Reservation_Service.Data.Models.UpdateUserDTO.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Backend_Reservation_Service.Data.Models.UpdateUserDTO",
+      "Summary": "<p sourcefile=\"sourcedocs/Backend_Reservation_Service.Data.Models.UpdateUserDTO.yml\" sourcestartlinenumber=\"1\">Data Transfer Object for updating user details.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "sourcedocs/Backend_Reservation_Service.Data.Models.UpdateUserPwdDTO.yml",
+      "output": {
+        ".html": {
+          "relative_path": "sourcedocs/Backend_Reservation_Service.Data.Models.UpdateUserPwdDTO.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Backend_Reservation_Service.Data.Models.UpdateUserPwdDTO",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "sourcedocs/Backend_Reservation_Service.Data.Models.UploadFile.yml",
+      "output": {
+        ".html": {
+          "relative_path": "sourcedocs/Backend_Reservation_Service.Data.Models.UploadFile.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Backend_Reservation_Service.Data.Models.UploadFile",
+      "Summary": "<p sourcefile=\"sourcedocs/Backend_Reservation_Service.Data.Models.UploadFile.yml\" sourcestartlinenumber=\"1\">Represents a file uploaded by a user.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "sourcedocs/Backend_Reservation_Service.Data.Models.UploadFileDTO.yml",
+      "output": {
+        ".html": {
+          "relative_path": "sourcedocs/Backend_Reservation_Service.Data.Models.UploadFileDTO.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Backend_Reservation_Service.Data.Models.UploadFileDTO",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "sourcedocs/Backend_Reservation_Service.Data.Models.UploadFilePostDTO.yml",
+      "output": {
+        ".html": {
+          "relative_path": "sourcedocs/Backend_Reservation_Service.Data.Models.UploadFilePostDTO.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Backend_Reservation_Service.Data.Models.UploadFilePostDTO",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "sourcedocs/Backend_Reservation_Service.Data.Models.User.yml",
+      "output": {
+        ".html": {
+          "relative_path": "sourcedocs/Backend_Reservation_Service.Data.Models.User.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Backend_Reservation_Service.Data.Models.User",
+      "Summary": "<p sourcefile=\"sourcedocs/Backend_Reservation_Service.Data.Models.User.yml\" sourcestartlinenumber=\"1\">Represents a user in the system.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "sourcedocs/Backend_Reservation_Service.Data.Models.UserDTO.yml",
+      "output": {
+        ".html": {
+          "relative_path": "sourcedocs/Backend_Reservation_Service.Data.Models.UserDTO.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Backend_Reservation_Service.Data.Models.UserDTO",
+      "Summary": "<p sourcefile=\"sourcedocs/Backend_Reservation_Service.Data.Models.UserDTO.yml\" sourcestartlinenumber=\"1\">Data Transfer Object for User entity.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "sourcedocs/Backend_Reservation_Service.Data.Models.UserRole.yml",
+      "output": {
+        ".html": {
+          "relative_path": "sourcedocs/Backend_Reservation_Service.Data.Models.UserRole.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Backend_Reservation_Service.Data.Models.UserRole",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "sourcedocs/Backend_Reservation_Service.Data.Models.Vehicle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "sourcedocs/Backend_Reservation_Service.Data.Models.Vehicle.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Backend_Reservation_Service.Data.Models.Vehicle",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "sourcedocs/Backend_Reservation_Service.Data.Models.VehicleDTO.yml",
+      "output": {
+        ".html": {
+          "relative_path": "sourcedocs/Backend_Reservation_Service.Data.Models.VehicleDTO.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Backend_Reservation_Service.Data.Models.VehicleDTO",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "sourcedocs/Backend_Reservation_Service.Data.Models.yml",
+      "output": {
+        ".html": {
+          "relative_path": "sourcedocs/Backend_Reservation_Service.Data.Models.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Backend_Reservation_Service.Data.Models",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "sourcedocs/Backend_Reservation_Service.Data.Repositories.INewsRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "sourcedocs/Backend_Reservation_Service.Data.Repositories.INewsRepository.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Backend_Reservation_Service.Data.Repositories.INewsRepository",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "sourcedocs/Backend_Reservation_Service.Data.Repositories.IReservationRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "sourcedocs/Backend_Reservation_Service.Data.Repositories.IReservationRepository.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Backend_Reservation_Service.Data.Repositories.IReservationRepository",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "sourcedocs/Backend_Reservation_Service.Data.Repositories.IRoleRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "sourcedocs/Backend_Reservation_Service.Data.Repositories.IRoleRepository.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Backend_Reservation_Service.Data.Repositories.IRoleRepository",
+      "Summary": "<p sourcefile=\"sourcedocs/Backend_Reservation_Service.Data.Repositories.IRoleRepository.yml\" sourcestartlinenumber=\"1\">Interface for role repository to manage roles.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "sourcedocs/Backend_Reservation_Service.Data.Repositories.IUploadFileRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "sourcedocs/Backend_Reservation_Service.Data.Repositories.IUploadFileRepository.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Backend_Reservation_Service.Data.Repositories.IUploadFileRepository",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "sourcedocs/Backend_Reservation_Service.Data.Repositories.IUserRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "sourcedocs/Backend_Reservation_Service.Data.Repositories.IUserRepository.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Backend_Reservation_Service.Data.Repositories.IUserRepository",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "sourcedocs/Backend_Reservation_Service.Data.Repositories.IVehicleRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "sourcedocs/Backend_Reservation_Service.Data.Repositories.IVehicleRepository.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Backend_Reservation_Service.Data.Repositories.IVehicleRepository",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "sourcedocs/Backend_Reservation_Service.Data.Repositories.NewsRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "sourcedocs/Backend_Reservation_Service.Data.Repositories.NewsRepository.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Backend_Reservation_Service.Data.Repositories.NewsRepository",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "sourcedocs/Backend_Reservation_Service.Data.Repositories.ReservationRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "sourcedocs/Backend_Reservation_Service.Data.Repositories.ReservationRepository.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Backend_Reservation_Service.Data.Repositories.ReservationRepository",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "sourcedocs/Backend_Reservation_Service.Data.Repositories.RoleRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "sourcedocs/Backend_Reservation_Service.Data.Repositories.RoleRepository.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Backend_Reservation_Service.Data.Repositories.RoleRepository",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "sourcedocs/Backend_Reservation_Service.Data.Repositories.UploadFileRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "sourcedocs/Backend_Reservation_Service.Data.Repositories.UploadFileRepository.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Backend_Reservation_Service.Data.Repositories.UploadFileRepository",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "sourcedocs/Backend_Reservation_Service.Data.Repositories.UserRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "sourcedocs/Backend_Reservation_Service.Data.Repositories.UserRepository.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Backend_Reservation_Service.Data.Repositories.UserRepository",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "sourcedocs/Backend_Reservation_Service.Data.Repositories.VehicleRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "sourcedocs/Backend_Reservation_Service.Data.Repositories.VehicleRepository.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Backend_Reservation_Service.Data.Repositories.VehicleRepository",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "sourcedocs/Backend_Reservation_Service.Data.Repositories.yml",
+      "output": {
+        ".html": {
+          "relative_path": "sourcedocs/Backend_Reservation_Service.Data.Repositories.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Backend_Reservation_Service.Data.Repositories",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "sourcedocs/Backend_Reservation_Service.Data.ReservationServiceDbContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "sourcedocs/Backend_Reservation_Service.Data.ReservationServiceDbContext.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Backend_Reservation_Service.Data.ReservationServiceDbContext",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "sourcedocs/Backend_Reservation_Service.Data.yml",
+      "output": {
+        ".html": {
+          "relative_path": "sourcedocs/Backend_Reservation_Service.Data.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Backend_Reservation_Service.Data",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "sourcedocs/Backend_Reservation_Service.Helpers.HelperMethods.yml",
+      "output": {
+        ".html": {
+          "relative_path": "sourcedocs/Backend_Reservation_Service.Helpers.HelperMethods.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Backend_Reservation_Service.Helpers.HelperMethods",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "sourcedocs/Backend_Reservation_Service.Helpers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "sourcedocs/Backend_Reservation_Service.Helpers.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Backend_Reservation_Service.Helpers",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "sourcedocs/Backend_Reservation_Service.Middleware.ApiKeyMiddleware.yml",
+      "output": {
+        ".html": {
+          "relative_path": "sourcedocs/Backend_Reservation_Service.Middleware.ApiKeyMiddleware.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Backend_Reservation_Service.Middleware.ApiKeyMiddleware",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "sourcedocs/Backend_Reservation_Service.Middleware.yml",
+      "output": {
+        ".html": {
+          "relative_path": "sourcedocs/Backend_Reservation_Service.Middleware.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Backend_Reservation_Service.Middleware",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "sourcedocs/Backend_Reservation_Service.Services.AccountService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "sourcedocs/Backend_Reservation_Service.Services.AccountService.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Backend_Reservation_Service.Services.AccountService",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "sourcedocs/Backend_Reservation_Service.Services.AuthenticationService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "sourcedocs/Backend_Reservation_Service.Services.AuthenticationService.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Backend_Reservation_Service.Services.AuthenticationService",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "sourcedocs/Backend_Reservation_Service.Services.AuthorizationService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "sourcedocs/Backend_Reservation_Service.Services.AuthorizationService.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Backend_Reservation_Service.Services.AuthorizationService",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "sourcedocs/Backend_Reservation_Service.Services.IAccountService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "sourcedocs/Backend_Reservation_Service.Services.IAccountService.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Backend_Reservation_Service.Services.IAccountService",
+      "Summary": "<p sourcefile=\"sourcedocs/Backend_Reservation_Service.Services.IAccountService.yml\" sourcestartlinenumber=\"1\">Interface for account-related operations.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "sourcedocs/Backend_Reservation_Service.Services.IAuthorizationService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "sourcedocs/Backend_Reservation_Service.Services.IAuthorizationService.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Backend_Reservation_Service.Services.IAuthorizationService",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "sourcedocs/Backend_Reservation_Service.Services.INewsService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "sourcedocs/Backend_Reservation_Service.Services.INewsService.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Backend_Reservation_Service.Services.INewsService",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "sourcedocs/Backend_Reservation_Service.Services.IReservationService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "sourcedocs/Backend_Reservation_Service.Services.IReservationService.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Backend_Reservation_Service.Services.IReservationService",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "sourcedocs/Backend_Reservation_Service.Services.IUploadService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "sourcedocs/Backend_Reservation_Service.Services.IUploadService.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Backend_Reservation_Service.Services.IUploadService",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "sourcedocs/Backend_Reservation_Service.Services.IVehicleService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "sourcedocs/Backend_Reservation_Service.Services.IVehicleService.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Backend_Reservation_Service.Services.IVehicleService",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "sourcedocs/Backend_Reservation_Service.Services.NewsService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "sourcedocs/Backend_Reservation_Service.Services.NewsService.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Backend_Reservation_Service.Services.NewsService",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "sourcedocs/Backend_Reservation_Service.Services.ReservationService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "sourcedocs/Backend_Reservation_Service.Services.ReservationService.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Backend_Reservation_Service.Services.ReservationService",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "sourcedocs/Backend_Reservation_Service.Services.TokenService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "sourcedocs/Backend_Reservation_Service.Services.TokenService.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Backend_Reservation_Service.Services.TokenService",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "sourcedocs/Backend_Reservation_Service.Services.UploadFileService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "sourcedocs/Backend_Reservation_Service.Services.UploadFileService.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Backend_Reservation_Service.Services.UploadFileService",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "sourcedocs/Backend_Reservation_Service.Services.VehicleService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "sourcedocs/Backend_Reservation_Service.Services.VehicleService.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Backend_Reservation_Service.Services.VehicleService",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "sourcedocs/Backend_Reservation_Service.Services.yml",
+      "output": {
+        ".html": {
+          "relative_path": "sourcedocs/Backend_Reservation_Service.Services.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Backend_Reservation_Service.Services",
+      "Summary": null
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "sourcedocs/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "sourcedocs/index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "sourcedocs/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "sourcedocs/toc.html"
+        },
+        ".json": {
+          "relative_path": "sourcedocs/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
